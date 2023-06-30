@@ -32,7 +32,7 @@ npm run dev
 
 ## Project Details
 - Language: [TypeScript](https://github.com/microsoft/TypeScript/)
-- Framework: [React](https://github.com/facebook/react)/[Next.js](https://github.com/vercel/next.js)
+- Framework: [React](https://github.com/facebook/react) / [Next.js](https://github.com/vercel/next.js)
     - Router: [App Router](https://nextjs.org/docs/app)
 - CSS: [Tailwind](https://github.com/tailwindlabs/tailwindcss)
 - Linter: [eslint](https://github.com/eslint/eslint)
