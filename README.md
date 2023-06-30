@@ -1,6 +1,6 @@
 # Next-POC
 ## What is this?
-Next-POC is a Proof of Concept (POC) [Next.js](https://nextjs.org/) project template.
+Next-POC is a Proof of Concept (POC) [Next.js](https://nextjs.org/) project template using [App Router](https://nextjs.org/docs/app).
 
 ![UI](/public/ui.png) 
 
@@ -10,12 +10,24 @@ Before getting started, you need to have Node.js and npm installed on your machi
 
 ### Installation
 Follow the steps below to set up and run this project locally.
-1. Clone the repository to your local machine: `git clone https://github.com/KY2001/Next-POC`
-2. Navigate to the project directory: `cd Next-POC`
-3. Install the project dependencies: `npm install`
+1. Clone the repository to your local machine:
+```
+git clone https://github.com/KY2001/Next-POC
+```
+2. Navigate to the project directory: 
+```
+cd Next-POC
+```
+3. Install the project dependencies:
+```
+npm install
+```
 
 ### Running the Application
-1. Start the development server: `npm run dev`
+1. Start the development server:
+```
+npm run dev
+```
 2. Open your web browser and visit http://localhost:3030/ to view the application.
 
 ## Project Details
