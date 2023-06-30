@@ -13,6 +13,7 @@ export const Header = () => {
             <Logo />
           </Link>
         </div>
+        {/* TODO: もうちょっとnavigation-barは左にあったほうが良い気がする */}
         <NavigationBar />
         {/* TODO: ボタンのクリック時の挙動に改善の余地あり */}
         <Link
