@@ -12,6 +12,7 @@
     "plugin:import/typescript",
     "plugin:tailwindcss/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
   "plugins": [
     "tailwindcss"
   ],
