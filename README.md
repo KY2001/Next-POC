@@ -2,6 +2,8 @@
 ## What is this?
 Next-POC is a Proof of Concept (POC) [Next.js](https://nextjs.org/) project template using [App Router](https://nextjs.org/docs/app).
 
+Project is deployed on [Vercel]: https://next-poc-lime.vercel.app/
+
 ![UI](/public/ui.png) 
 
 ## Getting Started
