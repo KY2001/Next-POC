@@ -4,8 +4,6 @@ info:
   version: 1.0.0
   description:
 servers:
-  - url: http://localhost:8080
-    description: local environment
   - url: https://go-server-poc-2ra7djjztq-an.a.run.app
     description: production environment
 paths:
