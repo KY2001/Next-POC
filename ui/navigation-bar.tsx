@@ -1,8 +1,8 @@
-import 'server-only';
+// import 'server-only';
 
 import { TextLink } from '@/ui/text-link';
 
-export const NavigationBar = () => {
+export const NavigationBar = (): JSX.Element => {
   return (
     <nav className="flex items-center justify-center space-x-4 font-semibold">
       <ul className="flex items-center gap-x-8">

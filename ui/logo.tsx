@@ -1,8 +1,8 @@
-import 'server-only';
+// import 'server-only';
 
 import Image from 'next/image';
 
-export const Logo = () => {
+export const Logo = (): JSX.Element => {
   return (
     <div className="mx-4 flex items-center">
       <Image
