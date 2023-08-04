@@ -13,7 +13,7 @@
  */
 
 
-export const BASE_PATH = "http://localhost:8080".replace(/\/+$/, "");
+export const BASE_PATH = "https://go-server-poc-2ra7djjztq-an.a.run.app".replace(/\/+$/, "");
 
 export interface ConfigurationParameters {
     basePath?: string; // override base path
