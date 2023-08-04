@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Webページの説明',
 };
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element => {
   return (
     <html lang="en">
       <body className="overflow-auto bg-white">
