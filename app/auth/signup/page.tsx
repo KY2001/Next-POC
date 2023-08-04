@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import {
+  signinFirebase,
   signupFirebase,
   deleteFirebaseUser,
   sendEmailVerification,
@@ -63,6 +64,7 @@ const SigninPage = (): JSX.Element => {
       // TODO: なぜ失敗したのかを明確に示す ex. ユーザー名の重複、ユーザーIDの重複 etc.
       throw 'Internal Server Error';
     }
+    await signinFirebase(email, password);
     await sendEmailVerification(user);
     router.push(pagePath.verify);
   };
