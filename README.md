@@ -32,7 +32,19 @@ npm run dev
 ```
 2. Open your web browser and visit http://localhost:3030/ to view the application.
 
-## Project Details
+## Development
+### generate API client using [openapi-generator](https://github.com/OpenAPITools/openapi-generator)
+1. Install Java development kit:
+```
+sudo apt install default-jdk # linux user
+brew install openjdk # mac user
+```
+2. Generate API clients:
+```
+npm run gen
+```
+
+### Project Details
 - Language: [TypeScript](https://github.com/microsoft/TypeScript/)
 - Framework: [React](https://github.com/facebook/react) / [Next.js](https://github.com/vercel/next.js)
     - Router: [App Router](https://nextjs.org/docs/app)
